@@ -42,8 +42,15 @@
   font-size: 24px;
   line-height: 30px;
   color: var(--color-text);
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   cursor: pointer;
+}
+
+.thoth__blog-container__article-content h5 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  color: palegreen;
+  margin-bottom: 4rem;
 }
 
 .thoth__blog-container__article-content p:last-child {

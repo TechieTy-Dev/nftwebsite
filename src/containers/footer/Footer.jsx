@@ -1,6 +1,5 @@
 import React from 'react';
 import './footer.css';
-import logo from '../../assets/logo2.svg'
 
 const Footer = () => {
   return (
@@ -16,7 +15,6 @@ const Footer = () => {
 
         <div className="thoth__footer-links">
           <div className="thoth__footer-links_logo">
-            <img src={logo} alt="logo"/>
             <p>Lorem Ipsum 212, United States 00000</p>
           </div>
 

@@ -1,21 +1,24 @@
 import React from 'react';
 import './header.css';
-import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 
 const Header = () => {
   return (
     <div className='thoth__header section__padding'id="home">
       <div className="thoth__header-content">
-        <h1 className='gradient__text'>Build Predictive Disruption Systems with Thoth.IO</h1>
-        <p>Thoth.IO enables you to create Predictive Systems that learn with AI and is stored on the XTS Blockchain. These two technologies combined will improve production and add transparency to your business.</p>
+        <h1 className='gradient__text'>Tyler Smith</h1>
+        <p>Front End Developer, Blockchain Noob, AI Enthusiast </p>
         <div className="thoth__header-content__input">
-          <input type="email" placeholder='Your Email Address'></input>
-            <button type='button'>Get Started</button>      
+          <p><a href="/">Current Book: The Internet of Money</a></p>
+          <br/>
+          <p><a href="/">Current Course: Blockchain Theory 101</a></p>
+          <br />
+          <p><a href="/">Current Project: BlockChain Facebook Clone</a></p>
+          <br />
         </div>
-        <div className="thoth__header-content__people"><img src={people} alt="people"/> 
-        <p>1,650 people are using Thoth.IO</p>
-          </div>
+        </div>
+        <div className="thoth__social-links">
+          
         </div>
         <div className="thoth__header-image">
           <img src={ai} alt="AI" />

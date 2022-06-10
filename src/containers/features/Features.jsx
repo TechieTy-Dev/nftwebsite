@@ -4,20 +4,16 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Secured Data' ,
+    title: 'Current Book' ,
     text: 'Insulated data transaction environment secured by encryption algorithms and smart contracts.'
   },
   {
-    title: 'Scale AI Across the Business',
+    title: 'Current Course',
     text: 'Easily expand business capability with intelligent data'
   },
   {
-    title: 'Low Cost',
+    title: 'Current Project',
     text: 'Our system saves enterprises up to 70% computing power costs'
-  },
-  {
-    title: 'Privacy Protection',
-    text: 'Separating data ownership from data usage right using smart contracts.'
   },
 ]
 

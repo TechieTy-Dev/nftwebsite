@@ -1,7 +1,7 @@
 import React from 'react';
 import './article.css';
 
-const Article = ({ imgUrl, date, title }) => {
+const Article = ({ imgUrl, date, title, text }) => {
   return (
     <div className='thoth__blog-container__article'>
       <div className="thoth__blog-container__article-img">
@@ -11,8 +11,9 @@ const Article = ({ imgUrl, date, title }) => {
         <div>
           <p>{date}</p>
           <h3>{title}</h3>
+          <h5>{text}</h5>
         </div>
-        <p>Read More</p>
+        <a href="https://real-estate-group.vercel.app/"><p>View Demo</p></a>
       </div>
     </div>
   )

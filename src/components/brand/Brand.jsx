@@ -1,6 +1,6 @@
 import React from 'react';
 import './brand.css';
-import { google,
+import {
   slack,
   atlassian,
   dropbox,
@@ -9,9 +9,7 @@ import { google,
 const brand = () => {
   return (
     <div className='thoth__brand section__padding'>
-      <div> 
-        <img src={google} alt="google"/>
-      </div>
+
       <div> 
         <img src={slack} alt="slack"/>
       </div>
