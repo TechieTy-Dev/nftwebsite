@@ -13,7 +13,6 @@ const Article = ({ imgUrl, date, title, text }) => {
           <h3>{title}</h3>
           <h5>{text}</h5>
         </div>
-        <a target="_blank" href="/" ><p>View Demo</p></a>
       </div>
     </div>
   )
