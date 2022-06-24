@@ -8,7 +8,7 @@ const Blog = () => {
     <div className='thoth__blog section__padding' id="blog">
       <div className="thoth__blog-heading">
         <h1 className="gradient__text">
-        Thoth.io Blog Posts
+        Blog Posts
         </h1>
       </div>
       <div className="thoth__blog-container">

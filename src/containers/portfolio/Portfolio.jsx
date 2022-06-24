@@ -30,7 +30,7 @@ const Portfolio = () => {
           <a href="https://iris-bc.vercel.app/" target="_blank" rel="noreferrer">
           <Article imgUrl={iris} text="Iris is a twitter clone. Frontend is built on React, backend uses Sanity for a database that stores tweets and users, and Vercel for deployment. MetaMask is needed to use Demo." date="June 22, 2022" title="Iris - Blockchain Social App " url="https://iris-bc.vercel.app/" /></a>
           <Article imgUrl={lugus} text="Lugus is a Amazon clone. Frontend is built on Next and Tailwind, backend uses Moralis for a database that stores users, NFTs, and transactions through Smart Contracts. Deployed on Vercel. MetaMask is needed to use Demo." date="June 23, 2022" title="Lugus - Blockchain Ecom App" url="https://iris-bc.vercel.app/" />
-          <Article imgUrl={muse} text="Muse Music is a Spotify clone. Frontend is built on Next and Tailwind, backend uses Moralis for a database that stores users, NFTs, and transactions through Smart Contracts. Deployed on Vercel. MetaMask is needed to use Demo." date="June XX, 2022" title="Muse - Blockchina Music App" url="/" />
+          <Article imgUrl={muse} text="Muse Music is a Spotify clone. Frontend is built on Next and Tailwind, backend uses Moralis for a database that stores users, NFTs, and transactions through Smart Contracts. Deployed on Vercel. MetaMask is needed to use Demo." date="June XX, 2022" title="Muse - Blockchain Music App" url="/" />
           
         </div>
       </div>
